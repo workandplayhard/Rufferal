@@ -1,0 +1,30 @@
+div.LoadingOuterContainer {
+  background-color: #dfdfdf;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.LoadingInnerContainer {
+  background-color: #fafafa;
+  width: 80%;
+  height: 70%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.LogoBlue {
+  padding-bottom: 20px;
+  width: 220px;
+  height: 220px;
+}
+
+.ImageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

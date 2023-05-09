@@ -1,0 +1,14 @@
+
+
+.Section_2_Icon_Pic {
+    height: 2em;
+    width: 2em;
+  
+    background-color: #ccc;
+  
+    border-radius: 50%;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

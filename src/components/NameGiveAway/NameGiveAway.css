@@ -1,0 +1,19 @@
+textarea{
+    margin: 2px;
+    margin-left:180px;
+    height: "140px";
+    width: 500px;
+    background-color: "white";
+}
+
+@media (max-width: 400px){
+    .GiveAwayInput textarea {
+      width: 300px;
+      margin-left: -20px;
+    }
+}
+
+.GiveAwayName{
+    margin-left: 0px;
+}
+

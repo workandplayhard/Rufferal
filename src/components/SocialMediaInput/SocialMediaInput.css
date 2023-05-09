@@ -1,0 +1,55 @@
+.SocialMediaInput {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+  
+  .SocialMediaInput-icon {
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 10px;
+    }
+  
+  .SocialMediaInput-name {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+  
+  .SocialMediaInput-worthEntries {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+  
+  .SocialMediaInput-label {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+  
+  .SocialMediaInput-input {
+        width: 60px;
+        height: 30px;
+        font-size: 16px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+  
+  .SocialMediaInput-taskMessage {
+        width: 100%;
+    }
+  
+  .SocialMediaInput-textarea {
+        width: 100%;
+        height: 80px;
+        font-size: 16px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+  

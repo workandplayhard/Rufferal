@@ -1,0 +1,75 @@
+import React, { useState } from "react";
+import "./SocialMediaCheckboxes.css";
+
+import Image_4 from "./../images/Image_4.png";
+
+const SocialMediaCheckboxes = () => {
+  const [isChecked, setIsChecked] = useState(false);
+  const [showThirdInput, setShowThirdInput] = useState(false);
+  const [worthEntries, setWorthEntries] = useState(0)
+
+  const handleCheckboxChange = () => {
+    setIsChecked(!isChecked);
+    setShowThirdInput(false);
+  };
+
+  const handleAddTaskClick = () => {
+    setShowThirdInput(true);
+  };
+
+  return (
+    <div className="socialMediaContainer">
+      <div className="socialMediaItem">
+        <img
+          className="socialIcon"
+          src={Image_4}
+          alt="Social Icon"
+          // style={{ borderRadius: "50%" }}
+        />
+        <span className="SocialMediaText">Social Media:</span>
+        <input
+          type="checkbox"
+          className="Social-checkbox"
+          onChange={handleCheckboxChange}
+        />
+        {isChecked && (
+          <>
+            <div className="additionalInfo">
+              <span>Worth # of entries</span>
+              <input type="text" className="EntriesInput" onChange={(event) => {setWorthEntries(event.target.value)}} />
+            </div>
+
+            <div className="additionalInfo">
+              <span className="NoActions"></span>
+              <div>
+                <input
+                  type="text"
+                  className="ActionInput"
+                  // style={{ overflow: "auto" }}
+                />
+              </div>
+
+              <div className="additionalInfo2">
+                <span onClick={handleAddTaskClick} className="addTaskText">
+                  +Add another task
+                </span>
+                {showThirdInput && (
+                  <div className="additionalInfo2">
+                    <input
+                      type="text"
+                      className="ActionInput2"
+                      // style={{ overflow: "auto" }}
+                    />
+                  </div>
+                )}
+              </div>
+            </div>
+          </>
+        )}
+        <div></div>
+      </div>
+    </div>
+  );
+};
+
+export default SocialMediaCheckboxes;

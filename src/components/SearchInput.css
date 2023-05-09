@@ -1,0 +1,12 @@
+form.searchInput {
+  display: flex;
+  flex-direction: row;
+}
+
+input {
+  padding: 0;
+}
+
+input.SearchInput {
+  width: 100px;
+}

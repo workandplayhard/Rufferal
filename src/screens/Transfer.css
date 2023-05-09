@@ -1,0 +1,98 @@
+.MainTransferContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.TransferContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dfdfdf;
+  width: 100%;
+  height: 100%;
+}
+
+.TransferInnerContainer {
+  background-color: #ffffff;
+  width: 70%;
+  /* border-radius: 20px; */
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.navText {
+  font-size: 14px;
+  padding: 4px;
+  margin-top: 10px;
+}
+
+p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.upperContainer {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Opeansea {
+  font-weight: 900;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.middleSection {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blackContainer {
+  border: 10px solid #ffffff;
+  width: 100%;
+  height: 120px;
+  background-color: black;
+  border-radius: 10%;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.3);
+
+}
+
+h1 {
+  margin: 0;
+}
+
+.lowerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  height: 100px;
+}
+
+button.TransferButton {
+  background-color: #accdf4;
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  color: #ffffff;
+  justify-content: flex-start;
+  border:none
+}
+
+.transferNFTText {
+  font-weight: 700;
+  
+}

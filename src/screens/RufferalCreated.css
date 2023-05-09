@@ -1,0 +1,263 @@
+.outerRufferalContainer {
+  background-color: #dfdfdf;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  
+  
+}
+
+.innerRufferalContainer {
+  background-color: #f3eef7;
+  width: 40%;
+  height: 600px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.RufferalHeadingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.RufferalHeading {
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.UpperSuccessContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.SuccessTextContainer {
+  text-align: center;
+  width: 80%;
+}
+
+.shareRufferallSuccess {
+  color: #1F78FF;
+  
+}
+
+.circle{
+  position: absolute;
+  width: 4%;
+  padding-bottom: 4%; /* make height equal to width */
+  border: 8px solid #F86058;
+  border-radius: 50%; /* set border-radius to 50% to create a circle */
+  margin-top: -40px;
+  background-color: white;
+}
+
+.dogUpperImg{
+  position: absolute;
+  width: 3%;
+  padding-bottom: 3%; /* make height equal to width */
+  margin-top: -50px;
+}
+
+.HeaderContainer{
+  
+  width: 100%;
+  height: 80%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#F86058
+}
+
+.DescriptionContainer{
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.Description{
+  font-size: x-small;
+  color: white;
+  text-decoration: underline;
+}
+
+.ruffCreator{
+  font-size: x-small;
+  color: white;
+  text-decoration: underline;
+  font-weight:500;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.Info{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 40px;
+  color: white;
+  font-weight: 500;
+  
+}
+
+.InfoData{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+
+
+.DescriptionArrow{
+  width:70%;
+  height: 70%;
+  margin-left: 5px;
+  align-self: center;
+}
+
+.LowerRaidContainer {
+  
+  width: 60%;
+  height: 80%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin-top: 50px;
+
+}
+
+.RufferalRaidHead {
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.RufferalRange {
+  font-size: 10px;
+  color: red;
+}
+
+.RufferalRangeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.BottomRaidContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+}
+
+.RaidButton {
+  background-color: #44bcff;
+  width: 50%;
+  border: none;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.TwitterImage {
+  width: 60px;
+  height: 60px;
+}
+
+.TelegramImage{
+  width: 25px;
+  height: 25px;
+  padding:15px;
+}
+
+.TikTokImage{
+  width: 25px;
+  height: 25px;
+  padding:15px;
+}
+
+.advertising{
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+div.RufferalRaidFinished {
+  width: 100%;
+}
+
+.RufferalRaidFinished {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.taskCheckBox {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+.TweetText {
+  font-size: 10px;
+  width: 100%;
+}
+
+.RufferalRaidMiddleContainer {
+  width: 95%;
+  /* border-top: 1px solid rgba(92, 92, 92, 0.527); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+  padding: 10px;
+}
+
+button.FinishedTweetButton {
+  background-color: #6c1da8;
+  width: 80px;
+  border-radius: 15px;
+  margin: 0;
+  height: 30px;
+}
+
+.RufferalRaidWinText {
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.ClaimButton{
+  width:70px;
+  height:30px;
+  border-radius: 6px;
+  background-color:#F86058;
+  border:none;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.buttonText{
+  color:white;
+  font-size: 10px;
+  font-weight: bold;
+}

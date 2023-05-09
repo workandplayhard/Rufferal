@@ -1,0 +1,114 @@
+.socialMediaContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  /* margin-left: 94px; */
+}
+
+.socialMediaItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.socialIcon {
+  /* width: 30px; */
+  height: 30px;
+  /* margin-right: 10px; */
+}
+
+.additionalInfo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* margin-left: 10px; */
+  flex-wrap: wrap;
+  /* width: 60%; */
+  justify-content: center;
+  margin-top: 2;
+}
+
+.additionalInfo + .additionalInfo {
+  position: absolute;
+  left: 0;
+  top: 32px;
+}
+
+.addTaskText {
+  cursor: pointer;
+  /* margin-left: 10px; */
+  /* margin-top: 180px; */
+  /* margin-right: 80px; */
+  font-size: 12px;
+}
+
+.WorthEntriesInput {
+  width: 30px;
+}
+
+.EntriesInput {
+  margin: 0;
+  width: 30% !important;
+  /* margin-right: 30% !important; */
+}
+
+span.SocialMediaText {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Social-checkbox {
+  padding: 20px;
+}
+
+.Social-checkbox:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.EntriesInput:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.NoActions {
+  margin-right: 0 !important;
+}
+
+.ActionInput {
+  width: 80% !important;
+  margin-top: 0;
+  height: 20px !important;
+  padding: 5px !important;
+  overflow-y: scroll !important;
+}
+
+.ActionInput2 {
+  width: 60% !important;
+  /* margin-top: 10px; */
+  height: 20px !important;
+  overflow-y: scroll !important;
+  margin-bottom: 0;
+  /* margin-left: 1px !important; */
+  margin-right: 0;
+  padding-right: 0 !important;
+}
+
+input.ActionInput {
+  margin: 0;
+  margin-top: 2px;
+}
+
+input.EntriesInput {
+  margin: 0;
+  margin-left: 15px;
+}
+
+div.additionalInfo2 {
+  width: 100%;
+  display: block;
+}

@@ -1,0 +1,53 @@
+.MaxEntries_Inner_Heading_2 {
+    color: black;
+    font-weight: 20px;
+    font-weight: 600;
+  
+   
+  
+    margin-bottom: 15px;
+
+    margin-left: 150px;
+    
+}
+
+@media (max-width: 400px){
+    .MaxEntries_Inner_Heading_2 {
+        margin-left: 0px;
+    }
+}
+
+.MaxEntries_2_Seg_2{
+    margin-left:75px
+}
+
+
+
+@media (max-width: 400px){
+    .MaxEntries_2_Seg_2{
+        margin-left:-80px
+    }
+}
+
+.MaxEntries_Text_1 {
+    color: rgb(17, 17, 17);
+    font-weight: 14px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+input.MaxEntries_Seg_2_Input {
+    background-color: #ffffff;
+    color: rgb(19, 18, 18);
+}
+
+input.MaxEntries_Seg_2_Input {
+    background-color: #ffffff;
+    color: rgb(19, 18, 18);
+}
+
+/* @media (max-width: 400px){
+    .ContainerMax{
+        margin-right: 230px;
+    }
+} */

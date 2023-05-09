@@ -1,0 +1,413 @@
+.Section_2_Inner_Button_1 {
+  background: #3c70f5;
+  color: white;
+  font-size: 12px;
+
+  padding: 10px;
+
+  /* min-width: 117px; */
+
+  border-radius: 3px;
+
+  border: none;
+
+  outline: none;
+  margin: 0;
+
+  /* margin-top: 87px; */
+
+  /* margin-bottom: 7px; */
+
+  white-space: nowrap;
+}
+.Section_2_Inner_Button_1:hover {
+  background-color: blue;
+}
+
+.textArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:420px;
+  margin-left: 135px;
+}
+
+.Section_2_Inner_Heading_2 {
+  color: black;
+  font-weight: 20px;
+  font-weight: 600;
+
+  margin-top: 10px;
+
+  margin-bottom: 15px;
+}
+
+.Section_2_Inner_text_1 {
+  color: rgb(17, 17, 17);
+  font-weight: 15px;
+  font-weight: 400;
+  opacity: 0.6;
+}
+
+.Extra_Text_1 {
+  color: rgb(17, 17, 17);
+  font-weight: 14px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+input.Section_2_Seg_2_Input {
+  background-color: #ffffff;
+  color: rgb(19, 18, 18);
+}
+
+.Section_2_Seg_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 17px;
+
+  margin-top: 4vw;
+}
+
+.Section_2_Seg_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 17px;
+}
+
+input[type="text"] {
+  width: 60%;
+
+  padding: 12px 20px;
+
+  box-sizing: border-box;
+
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+  border: none;
+
+  outline: none;
+
+  border-radius: 3px;
+}
+
+input[type="text"]:hover {
+  border: 2px solid #3c70f5;
+}
+
+textarea {
+  width: 80%;
+
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 3px;
+
+  resize: none;
+
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+  border: none;
+
+  outline: none;
+}
+
+textarea:hover {
+  border: 2px solid #3c70f5;
+}
+
+.Section_2_Seg_2_Inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  text-align: left;
+}
+
+.Section_2_Icon_Box_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.Section_2_Icon_Box_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.Section_2_Icon_Pic {
+  height: 2em;
+  width: 2em;
+
+  background-color: #ccc;
+
+  border-radius: 50%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Section_2_Icon_Pic_Other{
+  height: 2em;
+  width: 2em;
+
+
+  border-radius: 50%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Flex_This_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 5px;
+}
+
+/* TOOGLE SWITCHES */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 22px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #3c70f5;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #3c70f5;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/*////////////*/
+
+/*//////THE CHECKBOXIES */
+
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*/////////////*/
+
+/*//////THE CHECKBOXIES 222222222222 */
+
+/* The container */
+.container2 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 25px;
+  cursor: pointer;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container2 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container2:hover input ~ .checkmark2 {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container2 input:checked ~ .checkmark2 {
+  background-color: #2196f3;
+}
+.textarea {
+  margin: 0;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark2:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container2 input:checked ~ .checkmark2:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container2 .checkmark2:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*/////////////*/
+
+/*////ICONS */
+
+.block {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.twitter-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.name {
+  flex-grow: 1;
+}
+
+.checkbox {
+  
+}
+
+/*//////////////*/

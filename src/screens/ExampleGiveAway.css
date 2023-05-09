@@ -1,0 +1,52 @@
+.ExampleGiveAwayMainContainer {
+  background-color: #ffffff;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ExampleGiveAwayInnerContainer {
+  /* border: 1px solid rgba(131, 127, 127, 0.589); */
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.UpperContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.InnerContainer {
+  border: 1px solid rgba(30, 143, 255, 0.589);
+  height: 700px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+button {
+  width: 80%;
+  height: 50px;
+  background-color: #e7e7ff;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.SelectButton {
+  background-color: rgba(93, 93, 243, 0.795);
+  margin: 20px;
+  width: 180px;
+}

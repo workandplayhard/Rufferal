@@ -1,0 +1,44 @@
+input.CounterParty_2_Seg_2_Input {
+    background-color: #ffffff;
+    color: rgb(19, 18, 18);
+}
+
+.CounterParty_2_Seg_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    gap: 17px;
+  
+}
+
+.CounterParty_Text_1 {
+    color: rgb(17, 17, 17);
+    font-weight: 14px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.CounterParty_Inner_Heading_2 {
+    color: black;
+    font-weight: 20px;
+    font-weight: 600;
+  
+    margin-top: 10px;
+  
+    margin-bottom: 15px;
+    margin-left: 0px;
+}
+
+@media (max-width: 400px){
+    .CounterPartyContainer{
+        margin-left: 280px;
+    }
+    .CounterParty_Inner_Heading_2 {
+        margin-left: 0px;
+    }
+
+    .CounterPartyContainer{
+        margin-left: 30px;
+    }
+}

@@ -1,0 +1,128 @@
+.CheckBoxTextM2 {
+  width: 100%;
+  display: inline-block;
+  align-items: center;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 850px) {
+  .checkbox-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.checkbox-list li {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+div.promotion-type-container {
+  width: 70%;
+}
+
+.checkbox-list input[type="checkbox"] {
+  flex-direction: column;
+  display: flex;
+  /* margin-right: 10px; */
+}
+
+@media screen and (max-width: 850px) {
+  .checkbox-list input[type="checkbox"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 8px; */
+  }
+}
+
+.checkbox-label {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-weight: 500;
+  /* margin-right: 5px; */
+  /* margin-left: 30px; */
+}
+
+.checkbox-placeholder {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  color: #bbb;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.Checkbox_Align_box {
+  /* width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; */
+  margin-top: -40px;
+  align-content : center;
+  margin-left: -30px;
+}
+
+/* .input {
+  margin-top: 5px;
+} */
+
+.first-label {
+  /* justify-content: space-between; */
+  width: 100%;
+}
+
+li.first-list {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+input {
+  margin: 0;
+}
+
+.first-div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  width: 150px;
+  justify-content: flex-end;
+}
+
+p.checkbox-label {
+  margin: 0;
+}
+
+ol.checkbox-list {
+  /* width: 100%;
+  height: 140px; */
+}
+
+.first-checkbox {
+  padding: 20px;
+  
+}
+
+input.first-checkbox:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+ol {
+  display: flex;
+  align-items: flex-start;
+  padding: 0;
+  width: 100%;
+}

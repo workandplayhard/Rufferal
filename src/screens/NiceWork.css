@@ -1,0 +1,29 @@
+.LoadingOuterContainer {
+  background-color: #dfdfdf;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LoadingInnerContainer {
+  background-color: #fafafa;
+  width: 35%;
+  height: 400px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LogoBlue {
+  width: 220px;
+  height: 220px;
+}
+
+.ImageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

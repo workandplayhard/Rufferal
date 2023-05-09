@@ -1,0 +1,6 @@
+textarea::placeholder {
+  color: #aaa;
+}
+textarea::placeholder span {
+  font-weight: bold;
+}

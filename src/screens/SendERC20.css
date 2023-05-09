@@ -1,0 +1,72 @@
+.outerContainer {
+  background-color: #f5f5f5;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.EnterAmountText {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.innerContainer {
+  background-color: #dfdfdf;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
+
+.innerCard {
+  background-color: #fafafa;
+  width: 60%;
+  border-radius: 10px;
+  padding: 20px;
+  height: 60%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.OpenSeaText {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+div.addressText {
+  padding: 0;
+  width: 100%;
+}
+
+p.upperContainerText {
+  padding: 20px 0;
+  font-size: 16px;
+  width: 100%;
+}
+/*
+.ToggleContainer {
+  display: flex;
+  flex-direction: row;
+} */
+
+div.lowerContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.confirmButton {
+  background-color: black;
+  color: white;
+  border-radius: 2px;
+  width: 80px;
+  height: 30px;
+  margin-left: 50px;
+}

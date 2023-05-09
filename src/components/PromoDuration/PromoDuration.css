@@ -1,0 +1,29 @@
+input.Section_2_Seg_2_Input {
+    background-color: #ffffff;
+    color: rgb(19, 18, 18);
+}
+
+.Section_2_Seg_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    gap: 17px;
+}
+
+.Extra_Text_1 {
+    color: rgb(17, 17, 17);
+    font-weight: 14px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.Section_2_Inner_Heading_2 {
+    color: black;
+    font-weight: 20px;
+    font-weight: 600;
+  
+    margin-top: 10px;
+  
+    margin-bottom: 15px;
+}

@@ -1,0 +1,55 @@
+.PromoCode_Inner_Heading_2 {
+    color: black;
+    font-weight: 20px;
+    font-weight: 600;
+  
+    margin-top: 10px;
+  
+    margin-bottom: 15px;
+}
+
+.PromoCode_Text_1 {
+    color: rgb(17, 17, 17);
+    font-weight: 14px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+input.PromoCode_Seg_2_Input {
+    background-color: #ffffff;
+    color: rgb(19, 18, 18);
+}
+
+.PromoCode_Seg_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    gap: 17px;
+}
+
+.PromoCode_Inner_Heading_2{
+    margin-left: 60px;
+}
+
+/* @media (max-width: 400px){
+    .Section_2_Inner_Heading_2{
+        margin-left: 40px;
+    }
+} */
+
+.PromoCodeContainer{
+    margin-left: 0px;
+}
+
+
+
+@media (max-width: 400px){
+    .PromoCodeContainer{
+        margin-left: -30px;
+    }
+
+    .PromoCode_Seg_2 {
+        margin-left: -10px;
+    }
+}

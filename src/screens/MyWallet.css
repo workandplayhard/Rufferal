@@ -1,0 +1,88 @@
+.OuterWalletContainer {
+  background-color: #dfdfdf;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.InnerWalletContainer {
+  background-color: #ffffff;
+  width: 30%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* padding: 10px; */
+}
+
+.MyWalletTextContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid rgba(126, 124, 124, 0.664);
+  height: 90px;
+  padding-left: 40px;
+  margin-top: 20px;
+}
+
+.MiddleContainer {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MyWalletActualText {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.MainLowerContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* margin-top: 10px; */
+}
+
+.LowerMyWalletContainer {
+  height: 65%;
+  border: 1px solid rgba(136, 124, 124, 0.658);
+  width: 80%;
+  border-radius: 10px;
+  /* padding: 10px; */
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  /* margin-bottom: 40px; */
+}
+
+.MetamaskImageIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.SelectWalletLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(136, 124, 124, 0.658);
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.SelectWalletLinksShowMoreButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ShowMoreButton {
+  border: none;
+  background-color: white;
+  margin: 0;
+}

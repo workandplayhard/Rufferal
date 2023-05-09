@@ -1,0 +1,65 @@
+.Section_1_Box_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.Section_1_Inner_Box_1 {
+  background-color: white;
+  /* margin-top: 4vw;
+  margin-bottom: 4vw; */
+  width: 29em;
+  min-height: 36em;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.Section_1_Inner_Heading_1 {
+  color: black;
+  font-size: 33px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.Section_1_Inner_Heading_2 {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.Section_1_Inner_Button_1 {
+  background-color: #3c70f5;
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+  width: 107px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  margin-top: 87px;
+}
+
+.Section_1_Inner_Button_1:hover {
+  background-color: blue;
+}
+
+.Section_1_Inner_Button_2 {
+  background-color: #7a9efa;
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+  width: 107px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  margin-top: 87px;
+}

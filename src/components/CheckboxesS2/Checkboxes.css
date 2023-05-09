@@ -1,0 +1,73 @@
+.CheckBoxContainerS2 label {
+  margin-right: 26px;
+}
+
+span.CheckBoxTextS2 {
+  width: 100%;
+  text-align: left;
+}
+
+/* input.YesCheckS2,
+input.NoCheckS2 {
+  margin-left: 15px;
+} */
+
+input[type="text"] {
+  width: 60%;
+
+  padding: 12px 20px;
+
+  box-sizing: border-box;
+
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+  border: none;
+
+  outline: none;
+
+  border-radius: 3px;
+}
+
+input[type="text"]:hover {
+  border: 2px solid #3c70f5;
+}
+
+textarea {
+  width: 80%;
+
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 3px;
+
+  resize: none;
+
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+  border: none;
+
+  outline: none;
+}
+
+textarea:hover {
+  border: 2px solid #3c70f5;
+}
+
+
+
+div.CheckBoxContainerS2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 160px;
+  margin-top: -5px;
+}
+
+@media (max-width: 400px){
+  div.CheckBoxContainerS2 {
+    margin-right: 160px;
+  }
+}

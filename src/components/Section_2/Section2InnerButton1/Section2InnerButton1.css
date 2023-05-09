@@ -1,0 +1,18 @@
+.section-2-inner-button-1 {
+    background: #3C70F5;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    min-width: 117px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    margin-top: 87px;
+    margin-bottom: 27px;
+    white-space: nowrap;
+  }
+  
+  .section-2-inner-button-1:hover {
+    background-color: blue;
+  }
+  
